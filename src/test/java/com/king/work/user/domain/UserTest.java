@@ -16,12 +16,10 @@ class UserTest {
         // given
         User user = User.createUser("test", "test", 20);
 
-
-
         // when & then
         assertSoftly(softly -> {
             softly.assertThat(user.getNickname()).isEqualTo("test");
-            softly.assertThat(user.getOfficeHours()).isEqualTo(8);
+            softly.assertThat(user.getOfficeHours()).isEqualTo(20);
             softly.assertThat(user.getPassword()).isEqualTo("test");
             softly.assertThat(user.getId()).isNotNull();
         });
