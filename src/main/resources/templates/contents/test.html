@@ -15,18 +15,13 @@
 	            border: 1px solid red;
 	        }
 	    </style>
-
-    <!-- inline JS 영역-->
-    <script th:inline="javascript" type="text/javascript">
-	        $(document).ready(() => {
-	            alert("페이지가 시작됩니다.")
-	        });
-	    </script>
 </head>
 
 <body>
 <div>
-    <h1>Content 영역입니다.</h1>
+    <button id="btnTest">버튼</button>
 </div>
 </body>
 </html>
+
+<script type="text/javascript" th:src="@{axios.js}"></script>
