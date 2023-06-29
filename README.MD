@@ -35,7 +35,7 @@
 - 유저 식별값 (userId)
 - 근무시작일
     - YYYYMMDD
-- 출근시간 (workingTime)
+- 출근시간 (workStartTime)
 - 퇴근시간 (quittingTime)
 - 하루 근로 시간 (officeHours)
 - 근로 시간 (workingTime)
